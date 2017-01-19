@@ -11,7 +11,7 @@ def main():
           sys.stderr.write("No more than three arguments : " + sys.argv[0] + " " + str(sys.argv[1:(len(sys.argv))]));
           sys.stderr.flush();
           exit(2);
-    
+    #sys.arg[0] is always present and it is the the file name....
       else:
           filename = sys.argv[1];
           needle = sys.argv[2];
